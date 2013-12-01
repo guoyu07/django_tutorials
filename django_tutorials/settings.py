@@ -1,5 +1,5 @@
 """
-Django settings for django_tutorials2 project.
+Django settings for django_tutorials project.
 
 For more information on this file, see
 https://docs.djangoproject.com/en/1.6/topics/settings/
@@ -47,9 +47,9 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'django_tutorials2.urls'
+ROOT_URLCONF = 'django_tutorials.urls'
 
-WSGI_APPLICATION = 'django_tutorials2.wsgi.application'
+WSGI_APPLICATION = 'django_tutorials.wsgi.application'
 
 
 # Database
